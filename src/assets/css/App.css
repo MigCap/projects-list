@@ -1,0 +1,145 @@
+.App {
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+.center {
+  text-align: center;
+}
+
+.viewportCenter {
+  padding-top: 40vh;
+}
+
+.pt {
+  padding-top: 3rem;
+}
+
+.ptb {
+  padding: 3rem 0;
+}
+
+.element-hover:hover {
+  color: white !important;
+  transition: all 0.5s;
+}
+
+/* NAVBAR */
+nav ul a:hover {
+  background-color: #f38721;
+}
+
+nav ul a:hover {
+  color: #f7f8f8;
+  text-decoration: none;
+}
+
+/* Initials Profile */
+a.navStyle {
+  background-color: #f0f3f7 !important;
+  color: #ff8a65;
+}
+
+a.navStyle:hover {
+  background-color: #ec994a !important;
+  color: #f0f3f7;
+}
+
+/* FORMS */
+
+form {
+  padding: 20px;
+}
+
+form button,
+form h5 {
+  margin: 20px 0;
+}
+
+a.aUnderline {
+  text-decoration: underline;
+}
+
+.termsConditions {
+  margin: 0;
+  padding: 0;
+  border: none;
+  color: #ff8a65;
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.termsConditions:hover {
+  color: #fa7249;
+}
+
+.input-field>label {
+  color: #2b2b2b !important;
+}
+
+input[type="text"]:not(.browser-default):focus:not([readonly]),
+input[type="email"]:not(.browser-default):focus:not([readonly]),
+input[type="password"]:not(.browser-default):focus:not([readonly]),
+textarea.materialize-textarea:focus:not([readonly]) {
+  border-color: #ff8a65;
+  box-shadow: none;
+}
+
+input[type="text"]:not(.browser-default):focus:not([readonly])+label,
+textarea.materialize-textarea:focus:not([readonly])+label,
+input[type="email"]:not(.browser-default):focus:not([readonly])+label,
+input[type="password"]:not(.browser-default):focus:not([readonly])+label {
+  color: #ff8a65 !important;
+}
+
+.input-field .prefix.active {
+  color: #ff8a65;
+}
+
+.input-field .prefix {
+  color: #ff8a65;
+}
+
+[type="checkbox"]:checked+span:not(.lever):before {
+  border-top: 2px solid transparent;
+  border-left: 2px solid transparent;
+  border-right: 2px solid #ff8a65;
+  border-bottom: 2px solid #ff8a65;
+}
+
+[type="checkbox"]+span:not(.lever):before,
+[type="checkbox"]:not(.filled-in)+span:not(.lever):after {
+  border: 2px solid #ff8a65;
+}
+
+input textarea select {
+  background-color: transparent !important;
+  background-image: none !important;
+  color: rgb(0, 0, 0) !important;
+}
+
+/* DASHBOARD */
+.resumenProyecto {
+  border-color: #ff8a65;
+}
+
+.resumenProyecto:hover {
+  border-color: #ff8a65;
+  text-decoration: underline;
+}
+
+.border-none {
+  border-color: transparent;
+  /* -webkit-box-shadow: 0 4px 5px 0 rgba(33, 150, 243,0.14), 0 1px 10px 0 rgba(33, 150, 243,0.12), 0 2px 4px -1px rgba(33, 150, 243,0.3) !important;
+  box-shadow: 0 4px 5px 0 rgba(33, 150, 243,0.14), 0 1px 10px 0 rgba(33, 150, 243,0.12), 0 2px 4px -1px rgba(33, 150, 243,0.3) !important; */
+}
+
+.listDetailsStyled {
+  padding-left: 30px !important;
+  border: none !important;
+}
